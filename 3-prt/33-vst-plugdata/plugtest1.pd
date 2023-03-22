@@ -1,0 +1,11 @@
+#N canvas 827 239 527 327 12;
+#X obj 56 368 dac~;
+#X obj 56 245 adc~;
+#X obj 56 306 *~;
+#X obj 35 50 nbx 4 18 -1e+37 1e+37 0 1 vol r-vol VOL 0 -12 0 15 #191919 #ffffff #fff007 0.961538 256;
+#X obj 80 275 r vol;
+#X obj 56 15 param volume;
+#X connect 1 0 2 0 empty;
+#X connect 2 0 0 0 empty;
+#X connect 4 0 2 1 empty;
+#X connect 5 0 3 0 empty;
